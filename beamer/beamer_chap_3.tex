@@ -1,9 +1,8 @@
-\documentclass[12pt, dvipdfmx]{beamer}
-
-\renewcommand{\kanjifamilydefault}{\gtdefault}
-%%%%%%%%%%%  package  %%%%%%%%%%%
-\usepackage{bxdpx-beamer}% dvipdfmxなので必要
-\usepackage{pxjahyper}% 日本語で'しおり'したい
+% LuaLaTeX文書; 文字コードはUTF-8
+\documentclass[unicode,12pt]{beamer}% 'unicode'が必要
+\usepackage{luatexja}% 日本語したい
+\usepackage[ipaex]{luatexja-preset}% IPAexフォントしたい
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
 
 \usepackage{amssymb,amsmath,ascmac}
 \usepackage{derivative}
