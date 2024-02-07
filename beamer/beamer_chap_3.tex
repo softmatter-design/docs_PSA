@@ -62,7 +62,7 @@
 
 
 \title{粘着・剥離の基礎と\\タッキファイヤーの働き}
-\subtitle{～ 第三章「表面張力と濡れ、そして、相溶性」 ～}
+\subtitle{～ 第三章「表面張力、相溶性、混合状態の理解」 ～}
 \author[東亞合成 佐々木]{佐々木 裕\thanks{hiroshi\_sasaki@mail.toagosei.co.jp}}
 \institute[東亞合成]{東亞合成株式会社}
 \date{2024/2/15}
@@ -78,7 +78,7 @@
     \tableofcontents[]
 \end{frame} 
 
-\section{表面張力と濡れ}
+\section{表面張力とはなにか？}
 
 \subsection{表面張力の古典的な理解}
 \begin{frame}
@@ -111,7 +111,6 @@
 	\end{exampleblock}
 \end{frame}
 
-\subsection{濡れについて}
 \begin{frame}
 	\frametitle{Young 式のイメージ}
 	\begin{block}{Young 式は、力の釣り合いを考えたもの}
@@ -140,29 +139,7 @@
 			\includegraphics[width=.45\textwidth]{young.png}
 	\end{block}
 \end{frame}
-
-\begin{frame}
-	\frametitle{濡れのイメージ}
-	
-		\begin{block}{接触角 $\theta$ で濡れを理解}
-			\begin{columns}[c, onlytextwidth]
-				\column{.6\linewidth}
-					\begin{itemize}
-						\item $\theta = 90^{o}$: $\gamma_{LV}$ の寄与はない。
-						\item $\theta < 90^{o}$: 固体は気体と接するよりも液体の方が好き。
-						\item $\theta > 90^{o}$: 固体は気体と接するほうが居心地がいい。
-					\end{itemize}
-				\column{.35\linewidth}
-				\centering
-				\includegraphics[width=\textwidth]{young.png}
-			\end{columns}
-		\end{block}
-	\vspace{5mm}
-	\centering
-			\includegraphics[width=\textwidth]{wetting.png}
-\end{frame}
-
-\subsection{表面張力をエネルギー（仕事）として}
+\subsection{表面張力の現代的理解}
 \begin{frame}
 	\frametitle{仕事量としての解釈}
 	\vspace{-3mm}
@@ -195,7 +172,7 @@
 	}
 
 	\uncover<2>{
-		\begin{alertblock}{近代的な表面張力の理解}
+		\begin{alertblock}{現代的な表面張力の理解}
 			\begin{columns}[c, onlytextwidth]
 				\column{.75\linewidth}
 				\begin{itemize}
@@ -234,6 +211,29 @@
 		\includegraphics[width=\textwidth]{surface.png}
 	\end{columns}
 \end{frame}
+
+\subsection{濡れと接着仕事}
+\begin{frame}
+	\frametitle{濡れのイメージ}
+	
+		\begin{block}{接触角 $\theta$ で濡れを理解}
+			\begin{columns}[c, onlytextwidth]
+				\column{.6\linewidth}
+					\begin{itemize}
+						\item $\theta = 90^{o}$: $\gamma_{LV}$ の寄与はない。
+						\item $\theta < 90^{o}$: 固体は気体と接するよりも液体の方が好き。
+						\item $\theta > 90^{o}$: 固体は気体と接するほうが居心地がいい。
+					\end{itemize}
+				\column{.35\linewidth}
+				\centering
+				\includegraphics[width=\textwidth]{young.png}
+			\end{columns}
+		\end{block}
+	\vspace{5mm}
+	\centering
+			\includegraphics[width=\textwidth]{wetting.png}
+\end{frame}
+
 
 \begin{frame}
 	\frametitle{Dupr\'{e} の接着仕事}
@@ -276,18 +276,18 @@
                     \begin{itemize}
                         \item 液体の表面に張り詰めた力をイメージ
 						\item 表面を小さくしようとする力とも
+						\item Young 式は力の釣り合いを考えた
                     \end{itemize} 
-                \item 濡れについて
-                    \begin{itemize}
-                        \item Young 式は力の釣り合いを考えた
-                        \item 固体表面で気・液・固の三者
-                    \end{itemize} 
-                \item 近代的には仕事量として理解
+				\item 現代的には仕事量として理解
                     \begin{itemize}
                         \item 表面エネルギーとして解釈
                         \item 分子の相互作用が気液界面でバランスが変化
-                        \item 接着仕事にも繋がりやすい
                     \end{itemize}
+                \item 濡れと接着仕事
+                    \begin{itemize}
+                        \item 接触角$\theta$で濡れを理解
+                        \item 接着仕事にも繋がりやすい
+                    \end{itemize} 
             \end{itemize}
         \end{boxnote}
 \end{frame}
