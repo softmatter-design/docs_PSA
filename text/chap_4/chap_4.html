@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="佐々木 裕" />
+  <title>第4章 「動的粘弾性について」</title>
+  <style>
+    html {
+      font-family: Times New Roman;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">第4章 「動的粘弾性について」</h1>
+<p class="author">佐々木 裕</p>
+</header>
+<p>では、第3章の2つ目のトピックである動的粘弾性について説明します。
+ここでは、以下の3つの要素について説明します。
+粘弾性、粘弾性体の動的な刺激への応答、そして粘弾性性スペクトルです。</p>
+<h1 data-number="1" id="粘弾性とは"><span
+class="header-section-number">1</span> 粘弾性とは</h1>
+<p>まず、粘弾性についてから説明します。</p>
+<h2 data-number="1.1" id="粘性弾性粘弾性"><span
+class="header-section-number">1.1</span> 粘性、弾性、粘弾性</h2>
+<h3 data-number="1.1.1" id="レオロジーについて"><span
+class="header-section-number">1.1.1</span> レオロジーについて</h3>
+<!-- レオロジーのアプローチから始めましょう。 -->
+<p>レオロジーとは、物質に刺激を与えてその応答を評価・観察することで、その特性を評価する学問です。
+ここでは、物質の力学的な応答である弾性と粘性に焦点を当てて説明します。</p>
+<figure id="fig:Rheo_method">
+<img src="../../fig/Rheo_method.png" style="width:80.0%"
+alt="レオロジーのやり方" />
+<figcaption>図 1: レオロジーのやり方</figcaption>
+</figure>
+<h3 data-number="1.1.2" id="固体と液体のモデル"><span
+class="header-section-number">1.1.2</span> 固体と液体のモデル</h3>
+<p>まず、固体と液体の応答について考えます。
+固体のモデルでは、応力が歪に比例するとされ、これはバネに例えられます。
+このモデルでは、時間の影響は関係ありません。</p>
+<p>一方、液体のモデルでは、力がひずみ速度に比例するため、時間の因子が非常に重要です。
+これは、水などの液体中に邪魔板が移動するようなダッシュポットとして例えられます。</p>
+<p>この両方の特性をまとめると、図 2のようになります。</p>
+<figure id="fig:solid_liquid">
+<img src="../../fig/solid_liquid.png" style="width:80.0%"
+alt="固体と液体のモデル" />
+<figcaption>図 2: 固体と液体のモデル</figcaption>
+</figure>
+<h3 data-number="1.1.3" id="固体と液体の応答の分類"><span
+class="header-section-number">1.1.3</span> 固体と液体の応答の分類</h3>
+<p>レオロジー研究の初期の段階において、物質のレオロジー的な応答を粘性と弾性に分けることが試みられました<a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>。</p>
+<p>図 3の左側が固体的な弾性的な応答を示すものとなり、右側に液体的な流動という応答に分類されるものがまとめられています。
+しかし、実際には、粘性と弾性を合わせ持った物質が多く存在し、単純に分けられるわけではありません。</p>
+<figure id="fig:rheology_bunrui">
+<img src="../../fig/rheology_bunrui.jpeg" style="width:80.0%"
+alt="物質の応答の分類" />
+<figcaption>図 3: 物質の応答の分類</figcaption>
+</figure>
+<h2 data-number="1.2" id="粘弾性のモデル"><span
+class="header-section-number">1.2</span> 粘弾性のモデル</h2>
+<p>粘弾性とは、液体の性質である流動性と固体の性質である変形してもとに戻るという弾性的な応答を併せ持った複雑な性質です。</p>
+<p>これを非常に単純化したモデルとして、弾性を表すバネと粘性を表すダッシュポットを組み合わせたマックスウェルモデルが提案されています。
+このモデルでは、外部からの刺激に対してバネとダッシュポットが錬成して応答します。</p>
+<figure id="fig:maxwell_model_list">
+<img src="../../fig/maxwell_model_list.png" style="width:80.0%"
+alt="マックスウェルモデル" />
+<figcaption>図 4: マックスウェルモデル</figcaption>
+</figure>
+<h2 data-number="1.3" id="応力緩和"><span
+class="header-section-number">1.3</span> 応力緩和</h2>
+<p>粘弾性を示す物質では、マクロに歪みを与えてその状態を維持すると、応力がしだいに減少する現象が見られて、応力緩和と呼ばれています。</p>
+<p>このマクロな応力の低下をミクロに考えてみましょう。
+詳細は省略しますが、この現象は物質の内部で粒子の居心地が変化して、その改善の過程で流動が起きて局所的な応力が消失すると捉えることができます。
+この局所的な緩和が繰り返されて、マクロな応力緩和という現象が生じているのです。</p>
+<figure id="fig:ouryoku_kanwa_1">
+<img src="../../fig/ouryoku_kanwa_1.png" style="width:80.0%"
+alt="応力緩和とは" />
+<figcaption>図 5: 応力緩和とは</figcaption>
+</figure>
+<h3 data-number="1.3.1" id="マックスウェルモデルによる応力緩和"><span
+class="header-section-number">1.3.1</span>
+マックスウェルモデルによる応力緩和</h3>
+<p>この応力緩和の挙動をマックスウェルモデルで数式的に解析すると、式 1で表すことができて、初期の応力から指数関数的に減少していくことが示されます。
+<span id="eq:maxwell_kanwa"><span class="math display">\[\sigma(t) =
+\sigma_0 \exp \left(-\dfrac{t}{\tau}
+\right)\qquad{(1)}\]</span></span></p>
+<p>そして、図 6に示したように、<span
+class="math inline">\(t=\tau\)</span>において応力は初期応力<span
+class="math inline">\(\sigma_0\)</span>の<span
+class="math inline">\(1/e\)</span>になります。</p>
+<figure id="fig:ouryoku_kanwa_2">
+<img src="../../fig/ouryoku_kanwa_2.png" style="width:80.0%"
+alt="マックスウェルモデルで見た応力緩和" />
+<figcaption>図 6: マックスウェルモデルで見た応力緩和</figcaption>
+</figure>
+<h2 data-number="1.4" id="緩和時間とは"><span
+class="header-section-number">1.4</span> 緩和時間とは</h2>
+<h3 data-number="1.4.1" id="マックスウェルモデルでの緩和時間"><span
+class="header-section-number">1.4.1</span>
+マックスウェルモデルでの緩和時間</h3>
+<p>前述のように、緩和時間は、応答が初期の状態（ここでは初期応力<span
+class="math inline">\(\sigma_0\)</span>）の<span
+class="math inline">\(1/e\)</span>になる時間<span
+class="math inline">\(\tau\)</span>として定義されています。
+ここでは導出を省略したマックスウェルモデルで見た応力緩和過程の数式展開において、マックスウェルモデルのダッシュポット由来の粘度<span
+class="math inline">\(\eta\)</span>とバネ由来の弾性率<span
+class="math inline">\(G\)</span>の比が、緩和時間<span
+class="math inline">\(\tau\)</span>に対応することになります。 <span
+id="eq:kanwa"><span class="math display">\[\tau =
+\dfrac{\eta}{E}\qquad{(2)}\]</span></span></p>
+<p>天下りになりますが、緩和時間に関する事項を簡単にまとめると、以下のようになります。</p>
+<ul>
+<li>弾性モデルにおける弾性率<span
+class="math inline">\(E\)</span>の単位は<span
+class="math inline">\(\mathrm{Pa}\)</span></li>
+<li>粘性モデルにおける粘度<span
+class="math inline">\(\eta\)</span>の単位は<span
+class="math inline">\(\mathrm{Pa}\cdot\mathrm{s}\)</span></li>
+<li>その比となる<span class="math inline">\(\tau\)</span>は時間の次元[T]
+を持ち、緩和時間と呼ばれます。</li>
+<li>緩和時間とは、物質のひずみに対する力学応答が指数関数的に減少するさまを表す特徴的な時間。</li>
+</ul>
+<h3 data-number="1.4.2" id="緩和時間の意味"><span
+class="header-section-number">1.4.2</span> 緩和時間の意味</h3>
+<p>そして、緩和時間の振る舞いは、式 2の定義からわかるように以下のような特徴を持っています。</p>
+<ul>
+<li>弾性応答の性質を表す弾性率に反比例し、</li>
+<li>粘性応答の度合いを表す粘度に比例します。</li>
+</ul>
+<p>したがって、固体的な特徴である弾性率が大きくなると緩和時間は長くなりますし、逆に液体的な特徴の粘度が増加すれば緩和時間は短くなることになります。</p>
+<h2 data-number="1.5" id="まとめ"><span
+class="header-section-number">1.5</span> まとめ</h2>
+<p>ここでの内容をまとめると以下のようになります。</p>
+<ul>
+<li>粘性と弾性についての再確認
+<ul>
+<li>固体のモデルはバネ、液体はダッシュポット</li>
+<li>液体の粘性は「時間の因子が重要」</li>
+</ul></li>
+<li>粘弾性のモデル化
+<ul>
+<li>多くの物質は粘性と弾性を併せ持つ。</li>
+<li>粘弾性のモデルはバネとダッシュポットを</li>
+<li>直列したマックスウェルモデル</li>
+</ul></li>
+<li>粘弾性の応答
+<ul>
+<li>ひずみを付与した応力緩和が特徴的</li>
+<li>緩和現象は緩和時間で説明できる。</li>
+</ul></li>
+</ul>
+<!-- 粘弾性についてまとめますと、粘性と弾性を考えると、個々のモデルはバネが固体、液体がダッシュポットであり、とくに液体の場合、ダッシュポットの使用されたモデルでは時間の因子が重要になってきます。
+これらを組み合わせた粘弾性をモデル化しますが、粘性と弾性を合わせ持つものは非常に多くあります。
+そして、その非常に単純化したモデルとして、直列につなげたマックスウェルモデルがあります。
+粘弾性の応答として、歪みを加えると、その歪みを保持しながら徐々に応力が減少していく緩和現象が特徴的です。
+この緩和現象の1つの特徴的な要素は、緩和時間という概念で説明できます。 -->
+<h1 data-number="2" id="動的粘弾性について"><span
+class="header-section-number">2</span> 動的粘弾性について</h1>
+<h2 data-number="2.1" id="動的な刺激に対する応答"><span
+class="header-section-number">2.1</span> 動的な刺激に対する応答</h2>
+<p>次に、動的な刺激に対する応答について説明します。
+レオロジーとは、刺激を与えてその応答の評価するわけですが、周期的に変化する「動的な刺激」を考えることになります。</p>
+<h3 data-number="2.1.1" id="周期的な入力とは"><span
+class="header-section-number">2.1.1</span> 周期的な入力とは？</h3>
+<p>動的な刺激を考える場合、一般的に、周期的な変化である波（波動）を考えることになります。
+波は、三角関数である<span class="math inline">\(\sin\)</span>や<span
+class="math inline">\(\cos\)</span>を用いて表されます。
+そして、円運動、単振動というような見た目の異なる周期的な運動も、三角関数を用いて表現できます。
+図 7にそのイメージを示しました。</p>
+<figure id="fig:vib">
+<img src="../../fig/vibration.gif" style="width:80.0%"
+alt="周期的な運動のイメージ" />
+<figcaption>図 7: 周期的な運動のイメージ</figcaption>
+</figure>
+<h3 data-number="2.1.2" id="動的なひずみ"><span
+class="header-section-number">2.1.2</span> 動的なひずみ</h3>
+<p>動的な刺激として、周期的に時間変化する歪<span
+class="math inline">\(\gamma(t)\)</span>を考えます。
+このとき、時間に依存したひずみ量の変化は、時間<span
+class="math inline">\(t\)</span>を変数とする三角関数を用いて以下のように記述できます。
+<span class="math display">\[\gamma (t) = \gamma_0 \sin(\omega
+t)\]</span></p>
+<p>なお、<span
+class="math inline">\(\gamma_0\)</span>が最大ひずみ、<span
+class="math inline">\(\omega\)</span>は角周波数で回転速度を表すスカラー量です。</p>
+<p>角周波数<span
+class="math inline">\(\omega\)</span>は以下のように定義されます。 <span
+class="math display">\[\omega \equiv \dfrac{\mathrm{d}
+\theta}{\mathrm{d} t} = \dfrac{2 \pi}{T} = 2\pi f\]</span></p>
+<p>なお、<span
+class="math inline">\(\theta\)</span>は角度(単位：ラジアン)、<span
+class="math inline">\(T\)</span>は周期(単位：秒)、<span
+class="math inline">\(f\)</span>は周波数(単位：ヘルツ)です。 <span
+class="math inline">\(\theta\)</span>が無次元量ですから<span
+class="math inline">\(\omega\)</span>の次元は<span
+class="math inline">\(T^{−1}\)</span>、SI単位はラジアン毎秒(rad/s)となり、そして、角周波数は通常の周波数を単純に<span
+class="math inline">\(2\pi\)</span>倍したものとなります。</p>
+<h3 data-number="2.1.3" id="動的な刺激と応答の評価"><span
+class="header-section-number">2.1.3</span> 動的な刺激と応答の評価</h3>
+<p>この同様な刺激に対する応答を評価する必要があります。
+したがって、周期的な変形を入力として与えた場合、応力がどのように返ってくるかを見たいのです。
+比較する方法は、同軸に並べて比較するか、直交した形で評価することです。
+これらの方法を用いれば、目で見て理解しやすくなります。</p>
+<p>粘弾性測定の場合、入力と出力の周期は同じです。したがって、非常に単純な場合です。</p>
+<p>これから、イメージを持って、この入力が加わった時に応力がどのように変化するかを見ていきたいと思います。</p>
+<p>このイメージを表現する1つの方法として、リサージュ曲線があります。これは、直交する2つの単振動を合成して平面図形を描いたもので、一般に、入力をx軸、出力をy軸として用いられます。電気技師たちは、この方法を用いて周波数測定を行います。</p>
+<h3 data-number="2.1.4" id="位相とは"><span
+class="header-section-number">2.1.4</span> 位相とは？</h3>
+<p>さて、位相について少し説明します。
+位相は、周期的に変動する波の位置情報を意味します。例えば、入力信号がA
+sin(Ωt + 5)の形で表された場合、Ωt +
+5が位相であり、T=0の時の位相が5で初期位相と呼ばれます。このとき、Aは振幅に対応し、Ωは各周波数で、5が初期位相を表します。異なる波の位相を比較する場合、それぞれの初期相の差が位相差となります。位相差が50が正の場合を位相進み、負の場合を位相遅れと定義します。</p>
+<h2 data-number="2.2" id="理想的な弾性固体や粘性液体の応答"><span
+class="header-section-number">2.2</span>
+理想的な弾性固体や粘性液体の応答</h2>
+<p>以上が、粘弾性体に動的な刺激が加わる際の基本的な固体と液体の挙動についての説明です。
+固体の場合は弾性体として、液体の場合は粘性体として考えられます。</p>
+<p>粘性液体の理想的な場合は、異なる動作を示します。ここでは、ダッシュポットを用いて、波のシグナルを入力し、それを図で表現します。ストレインは、弾性と同じものであり、その微分は実際にはcosとなります。つまり、この場合、移動速度が最大となる位置で応力も最大となります。これをsinで表すと、入力がsin(Ωt)の場合、出力はsin(Ωt
++
+2)となり、位相が52進んで応答します。リサージュ図では、これが楕円状に表され、横軸と対応しています。</p>
+<p>さらに、この応答をリサージュ曲線で表現し、入力と揃った男性的な応答と、位相が進んだ応答に分解します。これにより、弾性的な応答を表す貯蔵男性率と、損失男性率が定義されます。そして、これらの性質を表すために、タンデルタンジェントも用いられます。</p>
+<p>これらの概念をまとめると、動的粘弾性測定は、角周波数、歪み量、温度などのパラメーターを変更し、貯蔵男性率、損失断性率、タンジェントデルタなどを測定するものです。この測定は、線形応答の枠組みで行われることが前提ですが、実際の測定では、非線形応答も重要視されます。</p>
+<p>線形応答の観点からは、微小な歪みを入力する必要があります。これについて説明します。リサージュ曲線は、非線形応答でよく見られる、変わった形状の曲線です。通常、0.2程度の歪みまでは、単純な線形粘弾性の議論で扱われる傾いた楕円のリサージュ曲線ですが、0.2を超えると、形状が変化し、歪みが10を超えると、線形応答の傾いた楕円の形状になりません。ゴムなどの材料は大きく変形するため、このような場合の振る舞いについての議論が最近行われていますが、これは今説明した枠組みでは議論できませんので、一旦置いておきます。</p>
+<p>歪みの増加に伴う貯蔵弾性率G’と損失弾性率の変化を調べるためには、歪み依存性を測定することが知られています。これは、小さな歪みから徐々に大きな歪みに増やしていくことです。最初は、線形応答であれば貯蔵弾性率G’は変化せず、損失弾性率も一定です。しかし、歪みが大きくなると非線形領域に入り、複雑な高次の成分が無視できなくなります。このような場合でも、貯蔵弾性率や損失弾性率は線形応答の間は一定ですが、それ以外の範囲では一定ではなく、増減することがあります。このような線形弾性率で測定しないと、先述の枠組みは成り立ちません。</p>
+<p>次に、動的な刺激への応答について簡単にまとめます。動的な刺激とは、時間経過とともに周期的に変化する歪みや応力のことです。周期は線形応答であれば同じですが、振幅や位相が異なる応答が得られます。固体では同位相の応答が得られますが、粘性体では位相が52だけ進んだ応答が得られます。これらの重ね合わせにより、粘弾性体では少し進んだ位相の応答が得られます。これらを線形応答の範囲でうまく分割して使用することで、動的粘弾性測定が行われます。この枠組みは、線形応答が得られる場合にのみ成り立つため、歪み量に十分注意する必要があります。</p>
+<aside id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>これは、1942年に発表された論文でした。Nature 1942
+v149-3790, p702<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
+</body>
+</html>
