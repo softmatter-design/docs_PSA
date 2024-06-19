@@ -89,7 +89,8 @@
 		\item 略歴
 			\begin{itemize}
 				\item 北海道大学で合成化学系の高分子化学を専攻
-				\item 卒業後、東亞合成株式会社に入社し、現在に至る
+				\item 東亞合成（株）に入社し2024/3まで研究・開発に従事
+				\item 2024/6にソフトマターデザインラボという会社を設立
 			\end{itemize}
 		\item  研究・開発歴
 			\begin{itemize}
@@ -99,7 +100,7 @@
 					\item その際に、レオロジー等の評価技術の重要性を痛感。
 				\end{itemize}
 				\item 個別の材料開発から材料評価技術の深掘りへ軸足を。
-				\item 現在は、シミュレーションやレオロジーを主として\\研究活動を継続。
+				\item シミュレーションやレオロジー等の研究活動を継続。
 			\end{itemize}
 		\item その経験からのモットー
 			\begin{itemize}
@@ -163,6 +164,28 @@
 \end{frame}
 
 \section{本講座の進め方}
+\subsection{最近の風潮}
+\begin{frame}
+    \frametitle{最近の風潮}
+            \begin{block}{直ぐに結果を求めたがる}
+                \begin{itemize}
+                    \item 実事象はあまりに複雑で因果関係がわかりにくいのに、すぐに結果を求める。
+                    \begin{itemize}
+                        \item 具体的な対策、方法論を望む
+                        \item 考え方の提示では満足しない
+                    \end{itemize}
+                    \item シミュレーションに対しても考え方の指針ではなく、\\答えを求める。
+                    \begin{itemize}
+                        \item 概念的なものをあまり重視しない。
+                        \item そのようなアプローチは、汎用性を生み出さない。
+                    \end{itemize}
+                \end{itemize}
+
+                    \centering
+                        \includegraphics[width=.4\textwidth]{usagi_kame.jpg}
+                
+            \end{block}
+\end{frame}
 
 \subsection{理解へのアプローチ}
 \begin{frame}
@@ -227,29 +250,35 @@
 
 \begin{frame}
 	\frametitle{色々なモデル化}
-	著者の場合：「さまざまな条件のもとで、幅広い検討対象に対してでも当てはめることのできるような汎用的なモデル」を考えることが役に立ってきました。
+	「さまざまな条件のもとで、幅広い検討対象に対してでも当てはめることのできるような汎用的なモデル」を考えることが役にたったと実感。
 	\begin{exampleblock}{モデル化のすすめ}
-		\begin{itemize}
-			\item 適度な深さで尤もらしく
-				\begin{itemize}
-					\item 簡単すぎるものは例外が多い。
-					\item 複雑化しすぎても過適応
-						\begin{itemize}
-							% \item n個のデータを、n次の関数でフィット
-							\item 個々の現象にだけ適応可能
-							\item モデル化する意味がない
-						\end{itemize}
-				\end{itemize}
-			\item 欲しいもの
-				\begin{itemize}
-					\item 汎用的に使えるモデル
-					\item 尤もらしく、実験事実を説明できるもの
-				\end{itemize}
-		\end{itemize}
+		\begin{columns}[c, onlytextwidth]
+			\column{.68\linewidth}
+			\begin{itemize}
+				\item 適度な深さで尤もらしく
+					\begin{itemize}
+						\item 簡単すぎるものは例外が多い。
+						\item 複雑化しすぎても過適応
+							\begin{itemize}
+								% \item n個のデータを、n次の関数でフィット
+								\item 個々の現象にだけ適応可能
+								\item モデル化する意味がない
+							\end{itemize}
+					\end{itemize}
+				\item 欲しいもの
+					\begin{itemize}
+						\item 汎用的に使えるモデル
+						\item 尤もらしく、実験事実を説明可能
+					\end{itemize}
+			\end{itemize}
+			\column{.3\linewidth}
+					\centering
+						\includegraphics[width=\textwidth]{souzou.png}
+		\end{columns}
 	\end{exampleblock}
 \end{frame}
 
-\subsection{目指すもの}
+% \subsection{目指すもの}
 
 \begin{frame}
 	\frametitle{おすすめのやり方}
@@ -260,15 +289,23 @@
 	
 	\vspace{5mm}
 	\begin{alertblock}<2->{ざっくり全体像をイメージ}
-		\begin{itemize}
-			\item 慌てて結果を出そうとするのではなく、
+		\begin{columns}[c, onlytextwidth]
+			\column{.6\linewidth}
 			\begin{itemize}
-				\item 心を落ち着けて、
-				\item やるべきことを明確化してイメージ
+				\item 慌てて結果を出そうとしない。
+				\begin{itemize}
+					\item 心を落ち着けて、
+					\item やるべきことを、
+					\item 明確にイメージする。
+				\end{itemize}
+				\item 全体像をザックリと捕まえる。
+				\item 理解は一気に容易になり、
+				\item ゴールへの道も見えてくる。
 			\end{itemize}
-			\item イメージとして全体像をザックリと捕まえる
-			\item 理解は一気に容易に
-		\end{itemize}
+			\column{.35\linewidth}
+					\centering
+						\includegraphics[width=\textwidth]{goal.png}
+		\end{columns}
 	\end{alertblock}
 \end{frame}
 
@@ -294,6 +331,28 @@
 					\end{itemize}
 			\end{itemize}
 		\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{最近の風潮}
+            \begin{block}{直ぐに結果を求めたがる}
+                \begin{itemize}
+                    \item 実事象はあまりに複雑で因果関係がわかりにくいのに、すぐに結果を求める。
+                    \begin{itemize}
+                        \item 具体的な対策、方法論を望む
+                        \item 考え方の提示では満足しない
+                    \end{itemize}
+                    \item シミュレーションに対しても考え方の指針ではなく、\\答えを求める。
+                    \begin{itemize}
+                        \item 概念的なものをあまり重視しない。
+                        \item そのようなアプローチは、汎用性を生み出さない。
+                    \end{itemize}
+                \end{itemize}
+
+                    \centering
+                        \includegraphics[width=.4\textwidth]{usagi_kame.jpg}
+                
+            \end{block}
 \end{frame}
 
 \end{document}
