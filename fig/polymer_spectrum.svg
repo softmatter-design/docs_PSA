@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="160mm"
+   viewBox="0 0 297 160"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="polymer_spectrum.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs5274">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path964" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path943" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path943-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path964-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path943-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path964-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path943-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path964-43" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-0-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path943-0-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path964-43-0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.62162861"
+     inkscape:cx="1040.8144"
+     inkscape:cy="-419.06051"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1192"
+     inkscape:window-y="101"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5277">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-50)">
+    <g
+       id="g4878"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\photopolym\polymer_spectrum.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-8);marker-end:url(#Arrow2Mend-7)"
+         d="M 44.84028,-37.89501 V 63.77089 H 195.61373"
+         id="path855-6" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 45.10573,-25.68448 h 10.42315 c 10.20587,0.53415 31.91394,-4.00439 37.14525,13.38748 17.20619,67.92136 66.38916,38.81374 77.67259,51.3077 9.09976,10.07603 8.1142,10.28192 18.24064,23.78996"
+         id="path1264-6"
+         sodipodi:nodetypes="cccsc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="20.950127"
+         y="-21.968225"
+         id="text9922-6"><tspan
+           sodipodi:role="line"
+           id="tspan9920-5"
+           style="stroke-width:0.264583"
+           x="20.950127"
+           y="-21.968225">GPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:vertical-lr;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="33.318413"
+         y="-13.789484"
+         id="text11656-4"><tspan
+           sodipodi:role="line"
+           id="tspan11654-5"
+           style="writing-mode:vertical-lr;fill:#ff0000;stroke-width:0.264583"
+           x="-13.789484"
+           y="33.318413">弾性率</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="20.217003"
+         y="38.818943"
+         id="text15758-5"><tspan
+           sodipodi:role="line"
+           id="tspan15756-7"
+           style="stroke-width:0.264583"
+           x="20.217003"
+           y="38.818943">MPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="47.371269"
+         y="-29.446253"
+         id="text20384"><tspan
+           sodipodi:role="line"
+           id="tspan20382"
+           style="fill:#ff0000;stroke-width:0.264583"
+           x="47.371269"
+           y="-29.446253">ガラス状態</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="87.295418"
+         y="75.401314"
+         id="text22816"><tspan
+           sodipodi:role="line"
+           id="tspan22814"
+           style="fill:#008000;stroke-width:0.264583"
+           x="87.295418"
+           y="75.401314">T<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#008000"
+   id="tspan23822">g</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="113.78715"
+         y="78.386269"
+         id="text25034"><tspan
+           sodipodi:role="line"
+           id="tspan25032"
+           style="fill:#0000ff;stroke-width:0.264583"
+           x="113.78715"
+           y="78.386269">温度</tspan></text>
+      <path
+         style="fill:none;stroke:#009d00;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52778;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 89.90729,-10.79011 V 63.08822"
+         id="path26192" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="123.86147"
+         y="28.387793"
+         id="text28701"><tspan
+           sodipodi:role="line"
+           id="tspan28699"
+           style="fill:#00ff00;stroke-width:0.264583"
+           x="123.86147"
+           y="28.387793">ゴム状態</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="186.54611"
+         y="43.312717"
+         id="text31095"><tspan
+           sodipodi:role="line"
+           id="tspan31093"
+           style="fill:#0000ff;stroke-width:0.264583"
+           x="186.54611"
+           y="43.312717">溶融</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#0000ff;stroke-width:0.264583"
+           x="186.54611"
+           y="58.237148"
+           id="tspan32071">流動</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:vertical-lr;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="101.4741"
+         y="-17.506327"
+         id="text34255"><tspan
+           sodipodi:role="line"
+           id="tspan34253"
+           style="writing-mode:vertical-lr;fill:#008080;fill-opacity:1;stroke-width:0.264583"
+           x="-17.506327"
+           y="101.4741">転移領域</tspan></text>
+    </g>
+    <g
+       id="g4633"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\photopolym\polymer_spectrum_1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52778;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 31.71544,122.96923 v 73.87833"
+         id="path26192-4" />
+      <path
+         style="fill:none;stroke:#ff8400;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52778;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 54.849065,122.96923 v 73.87833"
+         id="path26192-4-7" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1"
+         x="26.282795"
+         y="211.07449"
+         id="text22816-9"><tspan
+           sodipodi:role="line"
+           id="tspan22814-7"
+           style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1"
+           x="26.282795"
+           y="211.07449">T<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#ff0000;stroke:#ff0000;stroke-opacity:1"
+   id="tspan23822-3">g</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:#ff8400;stroke-width:0.264583;stroke-opacity:1"
+         x="49.41642"
+         y="211.07449"
+         id="text22816-9-2"><tspan
+           sodipodi:role="line"
+           id="tspan22814-7-6"
+           style="fill:#ff7f2a;stroke:#ff8400;stroke-width:0.264583;stroke-opacity:1"
+           x="49.41642"
+           y="211.07449">T<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#ff7f2a;stroke:#ff8400;stroke-opacity:1"
+   id="tspan23822-3-4">g</tspan></tspan></text>
+      <g
+         id="g4589">
+        <path
+           style="fill:none;stroke:#00ff00;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52778;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 77.609563,122.96923 v 73.87833"
+           id="path26192-4-7-0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#10ff00;fill-opacity:1;stroke:#00ff00;stroke-width:0.264583;stroke-opacity:1"
+           x="72.176918"
+           y="211.07449"
+           id="text22816-9-9"><tspan
+             sodipodi:role="line"
+             id="tspan22814-7-68"
+             style="fill:#10ff00;fill-opacity:1;stroke:#00ff00;stroke-width:0.264583;stroke-opacity:1"
+             x="72.176918"
+             y="211.07449">T<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#10ff00;fill-opacity:1;stroke:#00ff00;stroke-opacity:1"
+   id="tspan23822-3-2">g</tspan></tspan></text>
+      </g>
+      <g
+         id="g4595"
+         transform="translate(-3.1750001)">
+        <path
+           style="fill:none;stroke:#0000ff;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52778;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 92.161352,122.96923 v 73.87833"
+           id="path26192-4-7-02" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.264583;stroke-opacity:1"
+           x="86.728706"
+           y="211.07449"
+           id="text22816-9-4"><tspan
+             sodipodi:role="line"
+             id="tspan22814-7-2"
+             style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.264583;stroke-opacity:1"
+             x="86.728706"
+             y="211.07449">T<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-opacity:1"
+   id="tspan23822-3-9">g</tspan></tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow2Mend)"
+         d="M -9.15486,99.320099 V 200.98599 h 150.77345"
+         id="path855" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -8.889414,111.53063 32.11899,0 c 10.205871,0.53415 14.411714,4.57743 19.643021,11.14874 13.517501,27.63707 23.109901,51.40572 32.915331,76.18305"
+         id="path1264"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#ff8d00;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 13.872848,111.53063 h 32.11899 c 10.205871,0.53415 14.411714,4.57743 19.643021,11.14874 13.517501,27.63707 23.109901,51.40572 32.915334,76.18305"
+         id="path1264-9"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#00ff00;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 32.495015,111.53063 H 64.614 c 10.20588,0.53415 14.41172,4.57743 19.64303,11.14874 13.5175,27.63707 23.1099,51.40572 32.91533,76.18305"
+         id="path1264-9-8"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#0500ff;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -9.309141,111.53063 h 82.91899 c 10.20587,0.53415 14.41172,4.57743 19.64302,11.14874 13.517531,27.63707 23.109951,51.40572 32.915391,76.18305"
+         id="path1264-9-6"
+         sodipodi:nodetypes="cccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-33.045017"
+         y="115.24686"
+         id="text9922"><tspan
+           sodipodi:role="line"
+           id="tspan9920"
+           style="stroke-width:0.264583"
+           x="-33.045017"
+           y="115.24686">GPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:vertical-lr;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-20.303608"
+         y="122.67937"
+         id="text11656"><tspan
+           sodipodi:role="line"
+           id="tspan11654"
+           style="writing-mode:vertical-lr;fill:#ff0000;stroke-width:0.264583"
+           x="50.666653"
+           y="51.70911">弾性率</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-33.778133"
+         y="176.03406"
+         id="text15758"><tspan
+           sodipodi:role="line"
+           id="tspan15756"
+           style="stroke-width:0.264583"
+           x="-33.778133"
+           y="176.03406">MPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="104.28748"
+         y="219.98282"
+         id="text25034-9"><tspan
+           sodipodi:role="line"
+           id="tspan25032-1"
+           style="fill:#0000ff;stroke-width:0.264583"
+           x="104.28748"
+           y="219.98282">温度</tspan></text>
+      <g
+         id="g42508"
+         transform="translate(71.898606,-69.970173)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-50.37159"
+           y="240.66579"
+           id="text41084"><tspan
+             sodipodi:role="line"
+             id="tspan41082"
+             style="stroke-width:0.264583"
+             x="-50.37159"
+             y="240.66579">分子量増加</tspan></text>
+        <rect
+           style="opacity:0.416185;fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.76389;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52777;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect42124"
+           width="67.162117"
+           height="15.671162"
+           x="-55.972931"
+           y="228.75121" />
+        <path
+           style="fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 11.189186,224.10048 v 24.99923 l 17.091779,-11.41816 z"
+           id="path42287"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+    <g
+       id="g61301-4"
+       transform="translate(201.76989,16.397677)"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\photopolym\polymer_spectrum_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-0);marker-end:url(#Arrow2Mend-3)"
+         d="M 36.366132,72.828374 V 174.49427 H 187.13958"
+         id="path855-26" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 36.631578,85.0389 32.11899,10e-7 c 10.205871,0.534154 14.411714,4.577435 19.643021,11.148739 13.517501,27.63708 23.109901,51.40572 32.915331,76.18306"
+         id="path1264-4"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#ff7d00;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100.33866,121.40504 c 0,0 6.51666,9.91835 11.72956,10.57471 6.21038,0.78196 6.5197,2.91477 11.89515,9.33374 2.18514,2.60933 13.53777,30.52633 13.53777,30.52633"
+         id="path2002-7"
+         sodipodi:nodetypes="cssc" />
+      <path
+         style="fill:none;stroke:#00ff00;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100.33866,121.40504 c 0,0 6.51666,9.91835 11.72956,10.57471 6.21038,0.78196 19.26457,-1.33237 24.64002,5.0866 2.18514,2.60933 16.72139,35.56981 16.72139,35.56981"
+         id="path2002-0-1"
+         sodipodi:nodetypes="cssc" />
+      <path
+         style="fill:none;stroke:#008282;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100.33866,121.40504 c 0,0 6.51666,9.91835 11.72956,10.57471 6.21038,0.78196 35.22949,-1.15459 39.77046,5.87948 8.02496,12.43084 17.25573,34.77692 17.25573,34.77692"
+         id="path2002-0-4-4"
+         sodipodi:nodetypes="cssc" />
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100.33866,121.40504 c 0,0 6.51666,9.91835 11.72956,10.57471 6.21038,0.78196 49.56013,-0.35651 54.1011,6.67756 8.02496,12.43084 16.98856,33.17733 16.98856,33.17733"
+         id="path2002-0-4-8-7"
+         sodipodi:nodetypes="cssc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="12.475975"
+         y="88.755142"
+         id="text9922-2"><tspan
+           sodipodi:role="line"
+           id="tspan9920-6"
+           style="stroke-width:0.264583"
+           x="12.475975"
+           y="88.755142">GPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:vertical-lr;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="25.217384"
+         y="96.187645"
+         id="text11656-3"><tspan
+           sodipodi:role="line"
+           id="tspan11654-2"
+           style="writing-mode:vertical-lr;fill:#ff0000;stroke-width:0.264583"
+           x="96.187645"
+           y="25.217384">弾性率</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="11.742858"
+         y="149.54233"
+         id="text15758-4"><tspan
+           sodipodi:role="line"
+           id="tspan15756-0"
+           style="stroke-width:0.264583"
+           x="11.742858"
+           y="149.54233">MPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="102.27275"
+         y="188.73227"
+         id="text25034-9-1"><tspan
+           sodipodi:role="line"
+           id="tspan25032-1-5"
+           style="fill:#0000ff;stroke-width:0.264583"
+           x="102.27275"
+           y="188.73227">温度</tspan></text>
+      <g
+         id="g42508-7"
+         transform="translate(146.26417,-82.833281)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-50.37159"
+           y="240.66579"
+           id="text41084-1"><tspan
+             sodipodi:role="line"
+             id="tspan41082-7"
+             style="stroke-width:0.264583"
+             x="-50.37159"
+             y="240.66579">分子量増加</tspan></text>
+        <rect
+           style="opacity:0.416185;fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.76389;stroke-miterlimit:4;stroke-dasharray:7.05556, 3.52777;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect42124-4"
+           width="67.162117"
+           height="15.671162"
+           x="-55.972931"
+           y="228.75121" />
+        <path
+           style="fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 11.189186,224.10048 v 24.99923 l 17.091779,-11.41816 z"
+           id="path42287-5"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-0-5);marker-end:url(#Arrow2Mend-3-8)"
+       d="m 240.73825,-120.58874 v 101.6659 H 391.5117"
+       id="path855-26-4"
+       inkscape:export-filename="polymer_spectrum_rubber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 240.26228,-108.10323 c 0,0 43.31355,-3.71344 54.94378,8.559879 11.11912,11.733939 9.00078,31.982511 21.23428,38.105991 5.59736,2.801759 42.4708,-1.000995 54.1011,6.67756 12.34775,8.152227 16.98856,33.17733 16.98856,33.17733"
+       id="path2002-0-4-8-7-5"
+       sodipodi:nodetypes="csssc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 240.67966,-107.66575 c 0,0 43.31355,-3.71344 54.94378,8.559879 11.11912,11.733939 10.28975,41.005301 22.52325,47.128781 5.59736,2.801759 46.98219,0.287975 58.61249,7.96653 12.34775,8.152227 11.1882,22.86557 11.1882,22.86557"
+       id="path2002-0-4-8-7-5-4"
+       sodipodi:nodetypes="csssc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="216.8481"
+       y="-104.66196"
+       id="text9922-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan9920-6-3"
+         style="stroke-width:0.264583"
+         x="216.8481"
+         y="-104.66196">GPa</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:vertical-lr;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="229.58951"
+       y="-97.229462"
+       id="text11656-3-0"><tspan
+         sodipodi:role="line"
+         id="tspan11654-2-4"
+         style="writing-mode:vertical-lr;fill:#ff0000;stroke-width:0.264583"
+         x="229.58951"
+         y="-97.229462">弾性率</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="216.11497"
+       y="-43.874783"
+       id="text15758-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan15756-0-5"
+         style="stroke-width:0.264583"
+         x="216.11497"
+         y="-43.874783">MPa</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="306.64487"
+       y="-4.6848407"
+       id="text25034-9-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan25032-1-5-7"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="306.64487"
+         y="-4.6848407">温度</tspan></text>
+    <g
+       id="g61325"
+       transform="translate(-85.818265,161.93534)"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\photopolym\polymer_spectrum_3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="301.89349"
+         y="190.97099"
+         id="text25034-4"><tspan
+           sodipodi:role="line"
+           id="tspan25032-7"
+           style="fill:#0000ff;stroke-width:0.264583"
+           x="301.89349"
+           y="190.97099">温度</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-6);marker-end:url(#Arrow2Mend-5)"
+         d="M 229.55144,75.132306 V 176.79821 h 150.77345"
+         id="path855-2" />
+      <path
+         style="fill:none;stroke:#ff8800;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 229.81689,87.342832 32.11899,10e-7 c 10.20587,0.534154 14.41171,4.577435 19.64302,11.148739 14.03483,16.060428 11.08051,44.892108 27.77528,56.966738 11.81746,5.77133 36.79891,6.46182 65.74201,5.56682"
+         id="path1264-2"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:none;stroke:#ff008e;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 229.81689,87.342832 32.11899,10e-7 c 10.20587,0.534154 22.99354,0.846206 28.22485,7.41751 14.03483,16.060427 11.08051,41.907117 28.89465,55.474237 8.08623,4.27884 26.35146,4.22308 55.29456,3.32808"
+         id="path1264-2-2"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 229.81689,87.342829 20.9253,1e-6 c 10.20587,0.534154 16.27733,4.57743 23.37425,11.894986 14.03483,16.060434 12.94613,47.877094 26.65591,61.444214 10.69809,10.99505 47.83656,11.15638 75.28716,9.88825"
+         id="path1264-2-7"
+         sodipodi:nodetypes="ccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="205.66129"
+         y="91.059074"
+         id="text9922-5"><tspan
+           sodipodi:role="line"
+           id="tspan9920-0"
+           style="stroke-width:0.264583"
+           x="205.66129"
+           y="91.059074">GPa</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:vertical-lr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="218.40269"
+         y="98.491577"
+         id="text11656-2"><tspan
+           sodipodi:role="line"
+           id="tspan11654-3"
+           style="writing-mode:vertical-lr;stroke-width:0.264583"
+           x="98.491577"
+           y="218.40269">弾性率</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="204.92818"
+         y="151.84625"
+         id="text15758-1"><tspan
+           sodipodi:role="line"
+           id="tspan15756-4"
+           style="stroke-width:0.264583"
+           x="204.92818"
+           y="151.84625">MPa</tspan></text>
+      <g
+         id="g55411"
+         transform="rotate(-26.494336,-136.61326,-560.93959)">
+        <rect
+           style="opacity:0.416185;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.92874;stroke-miterlimit:4;stroke-dasharray:7.71494, 3.85746;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect42124-3"
+           width="80.301987"
+           height="15.671162"
+           x="-111.60837"
+           y="237.29437" />
+        <path
+           style="opacity:0.5;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -31.306381,232.63034 v 24.99923 l 17.091779,-11.41816 z"
+           id="path42287-7"
+           sodipodi:nodetypes="cccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-105.21384"
+           y="249.231"
+           id="text45351"><tspan
+             sodipodi:role="line"
+             id="tspan45349"
+             style="stroke-width:0.264583"
+             x="-105.21384"
+             y="249.231">架橋密度増加</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="247.38048"
+         y="80.222939"
+         id="text56031"><tspan
+           sodipodi:role="line"
+           id="tspan56029"
+           style="stroke-width:0.264583"
+           x="247.38048"
+           y="80.222939">T<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan57227">g</tspan> up</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="339.91495"
+         y="146.63882"
+         id="text60609"><tspan
+           sodipodi:role="line"
+           id="tspan60607"
+           style="stroke-width:0.264583"
+           x="339.91495"
+           y="146.63882">G' up</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.352778;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.8222239,0.35277799;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 240.48053,-59.812355 H 383.91759"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.352778;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.8222239,0.35277799;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 240.32202,-49.111353 H 383.75908"
+       id="path1-2" />
+  </g>
+</svg>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="young.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.6449955"
+     inkscape:cx="261.39973"
+     inkscape:cy="616.70471"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="1609"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient16720">
+      <stop
+         style="stop-color:#0019ff;stop-opacity:1;"
+         offset="0"
+         id="stop16748" />
+      <stop
+         style="stop-color:#0094ff;stop-opacity:0;"
+         offset="1"
+         id="stop16750" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-7-65"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8-9" />
+    </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16720"
+       id="radialGradient16722"
+       cx="47.173264"
+       cy="-140.82472"
+       fx="47.173264"
+       fy="-140.82472"
+       r="6.9543667"
+       gradientTransform="matrix(0.01898028,1.7614401,-2.8694116,0.02971354,-319.54019,-244.26817)"
+       gradientUnits="userSpaceOnUse" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2-7-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8-8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#999999;stroke:none;stroke-width:0.794785;stroke-dasharray:0.794785, 0.794785;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect9457"
+       width="48.629822"
+       height="8.8088751"
+       x="53.03426"
+       y="165.55859"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-7)"
+       d="M 70.3293,165.55628 H 80.446305"
+       id="path6178-0"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.453216;stroke:#007800;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-7)"
+       d="M 70.25239,165.55628 H 56.564776"
+       id="path6178-0-2"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.352778;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-7-65)"
+       d="m 70.149536,165.74924 4.20839,-12.69103"
+       id="path6178-0-6"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583;fill:#ff00ff"
+       x="61.040119"
+       y="170.30246"
+       id="text9846-6-7"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan9844-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ff00ff;stroke-width:0.264583"
+         x="61.040119"
+         y="170.30246"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:#ff00ff"
+           id="tspan9671">g</tspan><tspan
+           style="font-size:1.76389px;baseline-shift:sub;fill:#ff00ff"
+           id="tspan9681">LV</tspan><tspan
+           style="font-size:4.23333px;fill:#ff00ff"
+           id="tspan9685">cos</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:#ff00ff"
+           id="tspan9669">q</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="67.586929"
+       y="157.47382"
+       id="text9846-6-7-6"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan9844-5-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ff0000;stroke-width:0.264583"
+         x="67.586929"
+         y="157.47382"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Symbol;-inkscape-font-specification:Symbol"
+           id="tspan9671-8">g</tspan><tspan
+           style="font-size:1.76389px;baseline-shift:sub"
+           id="tspan9681-6">LV</tspan><tspan
+           style="font-size:4.23333px"
+           id="tspan9685-8" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="59.260735"
+       y="163.50732"
+       id="text9846-6-7-5"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan9844-5-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#008000;stroke-width:0.264583"
+         x="59.260735"
+         y="163.50732"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:#008000"
+           id="tspan9671-5">g</tspan><tspan
+           style="font-size:1.76389px;baseline-shift:sub;fill:#008000"
+           id="tspan9681-9">SV</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="78.507523"
+       y="169.84245"
+       id="text9846-6-7-9"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan9844-5-2-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#0000ff;stroke-width:0.264583"
+         x="78.507523"
+         y="169.84245"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:#0000ff"
+           id="tspan9671-51">g</tspan><tspan
+           style="font-size:1.76389px;baseline-shift:sub;fill:#0000ff"
+           id="tspan9681-8">SL</tspan></tspan></text>
+    <path
+       style="opacity:1;fill:url(#radialGradient16722);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.763719;stroke-dasharray:none;stroke-opacity:1"
+       id="path16714"
+       sodipodi:type="arc"
+       sodipodi:cx="85.499573"
+       sodipodi:cy="-165.52007"
+       sodipodi:rx="15.112953"
+       sodipodi:ry="5.3888817"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="slice"
+       d="m 100.61253,-165.52007 a 15.112953,5.3888817 0 0 1 -7.556481,4.66691 15.112953,5.3888817 0 0 1 -15.112953,0 15.112953,5.3888817 0 0 1 -7.556476,-4.66691 h 15.112953 z"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       id="path18919"
+       sodipodi:type="arc"
+       sodipodi:cx="70.289619"
+       sodipodi:cy="165.24567"
+       sodipodi:rx="3.0105486"
+       sodipodi:ry="3.0707595"
+       sodipodi:start="5.0882772"
+       sodipodi:end="0.056174539"
+       sodipodi:arc-type="arc"
+       d="m 71.394788,162.3893 a 3.0105486,3.0707595 0 0 1 1.900631,3.02877"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:Symbol;-inkscape-font-specification:Symbol;letter-spacing:0px;word-spacing:0px;fill:#000000;stroke-width:0.264583"
+       x="73.083473"
+       y="163.68042"
+       id="text10705"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10703"
+         style="font-size:5.64444px;fill:#000000;stroke-width:0.264583"
+         x="73.083473"
+         y="163.68042">q</tspan></text>
+    <path
+       style="fill:#ff00ff;stroke:#ff02ff;stroke-width:0.352778;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.352778, 0.352778;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2-7-8)"
+       d="m 70.312675,165.49097 h 2.95799"
+       id="path6178-0-4"
+       inkscape:export-filename="C:\Users\hsasa\docs_tackifier\fig\young.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>
